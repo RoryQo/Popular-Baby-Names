@@ -40,6 +40,8 @@ This R script analyzes baby name data using the `babynames` library. The project
 - The `m_plot` variable contains a ggplot visualization of median ages for the 25 most common male names, including quartiles for better context.
 - Custom aesthetics are used for better clarity and presentation.
 
+  ![Median Ages for Males with the 25 Most Common Names](https://github.com/RoryQo/Popular-Baby-Names/blob/main/graph1.jpg)
+
 ## Data Summary
 
 The dataset provides insights into the popularity of baby names over time and how gender distributions have changed.
