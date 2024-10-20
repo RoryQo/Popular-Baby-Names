@@ -1,7 +1,4 @@
-# HW 4 - Rory Quinlan
-
-**Author:** Rory Quinlan  
-**Date:** 2022-10-03  
+# Popular Baby Names Analysis
 
 ## Overview
 
