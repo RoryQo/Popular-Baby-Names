@@ -11,9 +11,8 @@
 
 <meta name="author" content="Rory Quinlan" />
 
-<meta name="date" content="2022-10-03" />
 
-<title>HW 4_RoryQuinlan</title>
+<title>Popular Baby Names</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -371,30 +370,8 @@ pre code {
 
 
 <pre class="r"><code>library(babynames)
-library(tidyverse)</code></pre>
-<pre><code>## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
-## ✔ ggplot2 3.3.6      ✔ purrr   0.3.4 
-## ✔ tibble  3.1.8      ✔ dplyr   1.0.10
-## ✔ tidyr   1.2.1      ✔ stringr 1.4.1 
-## ✔ readr   2.1.2      ✔ forcats 0.5.2 
-## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-## ✖ dplyr::filter() masks stats::filter()
-## ✖ dplyr::lag()    masks stats::lag()</code></pre>
-<pre class="r"><code>library(mdsr)
-library(Hmisc)</code></pre>
-<pre><code>## Loading required package: lattice
-## Loading required package: survival
-## Loading required package: Formula
-## 
-## Attaching package: &#39;Hmisc&#39;
-## 
-## The following objects are masked from &#39;package:dplyr&#39;:
-## 
-##     src, summarize
-## 
-## The following objects are masked from &#39;package:base&#39;:
-## 
-##     format.pval, units</code></pre>
+
+ format.pval, units</code></pre>
 <pre class="r"><code>library(dplyr)
 Taylor&lt;- babynames %&gt;%
   filter(name== &quot;Taylor&quot;) %&gt;% 
