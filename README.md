@@ -1,5 +1,18 @@
 # Popular Baby Names Analysis
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Libraries Used](#libraries-used)
+- [Key Analyses](#key-analyses)
+  - [1. Analysis of the Name "Taylor"](##1-analysis-of-the-name-taylor)
+  - [2. Common Male Names Analysis](##2-common-male-names-analysis)
+  - [3. Additional Insights](##3-additional-insights)
+- [Visualization](#visualization)
+- [Data Summary](#data-summary)
+- [Installation](#installation)
+- [Usage](#usage)
+
 ## Overview
 
 This R script analyzes baby name data using the `babynames` library. The project focuses on trends in baby names over the years, specifically analyzing the name "Taylor" and identifying common male names along with their median ages. It also includes visualizations to represent the findings effectively.
